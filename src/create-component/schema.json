@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "NewRepoSchematic",
+    "title": "create a new  my component",
+    "type": "object",
+    "description": "Initialise a new my component",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of component",
+        "x-prompt": "Name of component:",
+        "$default": {
+          "$source": "argv",
+          "index": 0
+        }
+      } 
+    },
+    "required": ["name"]
+   }

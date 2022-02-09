@@ -8,8 +8,8 @@
     "watch": "tsc -p tsconfig.json --watch",
     "new_project": "schematics .:new-project",
     "debug_new_project": "schematics .:new-project --dryRun=false",
-    "create_file": "schematics .:create-file --dryRun=false",
-    "debug_create_file": "schematics .:create-file"    
+    "create_file": "schematics .:create-file",
+    "debug_create_file": "schematics .:create-file --dryRun=false"
   },
   "keywords": [
     "schematics"
@@ -20,6 +20,7 @@
   "dependencies": {
     "@angular-devkit/core": "^13.2.2",
     "@angular-devkit/schematics": "^13.2.2",
+    "@angular/core": "^13.2.2",
     "@schematics/angular": "^13.2.2",
     "typescript": "~4.5.2"
   },

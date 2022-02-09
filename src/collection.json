@@ -10,6 +10,11 @@
       "description": "A blank schematic.",
       "factory": "./create-file/index#createFile",
       "schema": "./create-file/schema.json"
+    },
+    "create-component": {
+      "description": "A blank schematic.",
+      "factory": "./create-component/index#createComponent",
+      "schema": "./create-component/schema.json"
     }
   }
 }
