@@ -14,5 +14,6 @@
           "index": 0
         }
       } 
-    }
+    },
+    "required": ["name"]
    }
