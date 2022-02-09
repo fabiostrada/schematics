@@ -1,9 +1,10 @@
 import { externalSchematic, Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
+import { Schema } from './models/schema.model';
 
 
 // You don't have to export the function as default. You can also have more than one rule factory
 // per file.
-export function newProject(_options: any): Rule {
+export function newProject(_options: Schema): Rule {
 
   let name: string = _options.name;
   console.log('The Name of project will be : ' + name);
