@@ -29,6 +29,12 @@ npm publish
 
 That's it!
 
+### About project
+This project contains three schematics into collections:
+1. new-project: it's a schematic to create a new project
+2. create-file: it's a schematic to create a file js to print a specific content
+3. create-component: it's a schematic to create a empty angular component
+
 ### Main commands
 
 1. Create new project ```npm run new_project ``` or ```schematics .:new-project --dryRun=false```
