@@ -1,0 +1,29 @@
+{
+  "name": "new-project",
+  "version": "0.0.0",
+  "description": "A blank schematics",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js",
+    "watch": "tsc -p tsconfig.json --watch",
+    "debug": "schematics .:new-project",
+    "no-debug": "schematics .:new-project --dryRun=false"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^13.2.2",
+    "@angular-devkit/schematics": "^13.2.2",
+    "@schematics/angular": "^13.2.2",
+    "typescript": "~4.5.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "~3.10.0",
+    "@types/node": "^12.11.1",
+    "jasmine": "^4.0.0"
+  }
+}
