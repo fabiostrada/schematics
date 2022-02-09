@@ -26,3 +26,9 @@ npm publish
 ```
 
 That's it!
+
+### Main commands
+
+1. Create new project ```npm run new_project ``` or ```schematics .:new-project --dryRun=false```
+2. Create file ```npm run create_file ``` or ```schematics .:create_file --dryRun=false```
+3. Create create component ```npm run create_component ``` or ```schematics .:create_component --dryRun=false```
