@@ -6,8 +6,10 @@
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js",
     "watch": "tsc -p tsconfig.json --watch",
-    "debug": "schematics .:new-project",
-    "no-debug": "schematics .:new-project --dryRun=false"
+    "new_project": "schematics .:new-project",
+    "debug_new_project": "schematics .:new-project --dryRun=false",
+    "create_file": "schematics .:create-file --dryRun=false",
+    "debug_create_file": "schematics .:create-file"    
   },
   "keywords": [
     "schematics"

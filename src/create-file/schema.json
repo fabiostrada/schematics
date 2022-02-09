@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "NewRepoSchematic",
+    "title": "ng new options schema",
+    "type": "object",
+    "description": "Initialise a new project",
+    "properties": {
+        "name_of_file": {
+            "type": "string",
+            "description": "The name of file js",
+            "x-prompt": "Name of file js:",
+            "$default": {
+              "$source": "argv",
+              "index": 0
+            }         
+        }, 
+        "name_to_print": {
+            "type": "string",
+            "description": "The name to print into file js",
+            "x-prompt": "Name to print into file js:",
+            "$default": {
+              "$source": "argv",
+              "index": 0
+            }         
+        } 
+    },
+    "required": ["name_of_file","name_to_print"]
+   }

@@ -5,6 +5,11 @@
       "description": "A blank schematic.",
       "factory": "./new-project/index#newProject",
       "schema": "./new-project/schema.json"
+    },
+    "create-file": {
+      "description": "A blank schematic.",
+      "factory": "./create-file/index#createFile",
+      "schema": "./create-file/schema.json"
     }
   }
 }
